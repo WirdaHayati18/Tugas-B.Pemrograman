@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+using namespace std;
+// Tugas Praktikum Dirumah 31/03/2020
+int main ( ) {
+	string nama = "Wirda Hayati";
+	string nim = "ETE10190122";
+	cout << endl;
+	cout << "Nama : " << nama << endl;
+	cout << "NIM : " << nim;
+	cout << endl;
+	cout << endl;
+	char huruf = 'Y';
+	/* Jika Dimasukkan N maka akan Melakukan Perulangan
+	Tetapi Ketika Dimasukkan Y maka akan Menjalankan Program
+	*/
+	do {
+		cout << "Masukkan ' N ' untuk menghentikan perulangan " << endl;
+		cout << "Masukkan huruf ' Y ' : ";
+		cin >> huruf;
+	}
+	while (huruf == ' Y ');
+	return 0;
+}
