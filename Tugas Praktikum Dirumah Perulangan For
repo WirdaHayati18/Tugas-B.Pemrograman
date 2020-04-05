@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+using namespace std;
+// Tugas Praktikum Dirumah 31/03/2020
+int main ( ) {
+	string nama = "Wirda Hayati";
+	string nim = "ETE10190122";
+	cout << endl;
+	cout << "Nama : " << nama;
+	cout << endl;
+	cout << "NIM : " << nim;
+	cout << endl;
+	cout << endl;
+	// Menampilkan angka ganjil dan genap 200-1200
+	int angka_awal,angka_akhir;
+	cout << "Menampilkan bilangan ganjil dan genap range 200-1200 : " << endl;
+	cin >> angka_awal;
+	
+	for ( int i = 200; i <= 1200; i++ ) {
+		if ( i % 2 == 1)
+		{
+			cout << i << " Adalah bilangan ganjil " << endl;
+		}
+		else {
+			cout << i << " Adalah bilangan genap " << endl;
+		}
+	}
+}
